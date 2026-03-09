@@ -1,0 +1,710 @@
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-webfont.eot');
+    src: url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-webfont.eot') format('embedded-opentype'),
+         url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-webfont.woff') format('woff'),
+         url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-webfont.ttf') format('truetype'),
+         url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-Bold-webfont.eot');
+    src: url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-Bold-webfont.eot') format('embedded-opentype'),
+         url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-Bold-webfont.woff') format('woff'),
+         url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/DroidSans-Bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	font-family: Calibri, 'DroidSansRegular', Tahoma, Cambria, Arial, Verdana, Sans-Serif;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #000;
+	/* background: #e3e4e5 url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/body.gif) repeat-x 0 0; */
+	background-color: #BCE0B6;
+	text-align: left;
+}
+body.inner-page
+{
+	
+	background: #e3e4e5;
+    width: 100vw;
+}
+* {
+	margin: 0;
+	padding: 0;	
+}
+hr {
+    color: Gray;
+    background-color: Gray;
+    height: 1px;
+    width: 95%;
+    border: none;
+}
+.padTop10 { padding-top: 10px; }
+
+#wrapper 
+{
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul 
+{
+    float: left;
+	font-size: 9px !important;
+	font-weight: bold;
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a .rtsIn {
+	padding: 8px 5px 19px 3px;
+}
+/*
+#topmenu {
+
+    background-color: White;
+    width: 100%;
+}
+*/
+/*
+#TopNavigation #TopMenu 
+{
+    clear: both;
+    float: left;
+    margin: 120px 0 0 0;
+    background: Green;
+}
+*/
+#topcenter 
+{
+    display: none;
+    /*
+    background: transparent url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/since1996.gif) no-repeat 0 0;
+    width: 177px;
+    height: 35px;
+    margin: -33px 0 0 430px;
+*/
+}
+#langTable 
+{
+    margin: 0 0 0 3px;
+    /* width: 70%; */
+    float: left;
+    height: 35px;
+    width: 90px;
+}
+
+/* 
+#langTable .langTablePad {
+    padding-top: 8px;
+}
+*/
+.langlink 
+{
+    display: none;
+    /*
+    border: solid 1px darkgrey;
+    padding: 6px 5px 4px 5px;
+    font-family: 'DroidSansRegular', Arial, Verdana, Sans-Serif;
+    font-size: 12px !important;
+    line-height: 17px;
+*/
+}
+.langlink a:link, .langlink a:visited, .langlink a:hover, .langlink a:active  
+{
+    font-size: 12px !important;
+    line-height: 17px;
+}
+.sflanguagesDropDown { text-transform: capitalize !important; }
+p.logo
+{
+	display: none;
+/*	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+*/
+}
+#printLogo { display: none; }
+#loginViewDiv 
+{ 
+    float: left; 
+    margin: 8px 14px 0 0;
+    background: transparent;
+    color: Black;
+
+    }
+
+#fontSze
+{
+    display: none;
+    /*float: right;width:160px;margin-top:-32px; margin-right: 20px;*/
+}
+
+.titleRight {
+    float: right;
+    margin: 5px 0 0 0;
+    background: transparent;
+    
+}
+.loginViewStyle { margin: 0;}
+.top-nav 
+{
+    clear: both;
+	background: transparent url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/top-nav_new_mobile_en_1000.jpg) no-repeat 0 0;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+#mobileSubMenu { display: block; }
+div.sidebar 
+{
+    display: none;
+}
+.inner-page .sidebar
+{
+    display: none;
+}
+div.sidebarUtils {
+    padding: 6px 6px 6px 6px;
+    border: dotted 1px darkgrey;  
+}
+div.sidebarUtils .imgPaddingTop 
+{
+    padding-top: 10px;
+}
+
+div.content {
+	margin: 0;
+	padding: 10px 14px 0;
+	width: auto;
+	float: left;
+	background: transparent /*url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/content.gif) repeat-x 0 0 */;
+	/*min-height: 370px;*/
+	display: inline;
+}
+.inner-page .content 
+{
+	margin: 0;
+	float: left;
+	width: 98%;
+}
+.inner-page .contentWrapper /*.1ColumnContent*/ 
+{
+	margin: 0;
+	float: left;
+	width: 98%;
+}
+
+#homeMainContent 
+{
+    width: auto;
+    margin: 0 0 0 -10px;
+    float: left;
+}
+#homeMainContentLeft 
+{
+    float: left;
+    padding: 3px;
+    /* width: 300px; */
+    margin: 0;
+}
+
+#homeMainContentRight 
+{
+    padding: 3px;
+    float: left;
+    margin-left: 5px;
+}
+
+.inner-page /*.1ColumnContent*/ ul 
+{
+	margin-left: 0;
+}
+.inner-page /*.1ColumnContent*/ ul li
+{
+	padding-left: 30px;
+	list-style-type: none;
+}
+.inner-page /*.1ColumnContent*/ ol 
+{
+	margin-left: 0px;
+}
+.inner-page .contentWrapper /*.1ColumnContent*/ h1 {
+	margin: 0;
+	color: #928B0C;
+	font-size: 34px;
+	font-weight: normal;
+
+}
+.inner-page .topevents {
+    padding: 0 0 0 5px;
+}
+.inner-page .topevents h5 {
+    font-size: 16px;
+}
+.inner-page .topevents hr.hr2 {
+    color: Gray;
+    background-color: Gray;
+    height: 1px;
+    width: 95%;
+    border: none;
+}
+#SlideDiv { display: none; }
+
+#col1subnav {margin-left: 10px; padding: 15px 15px 15px 15px; background-color: Gainsboro; width: 150px;}
+#col1subnav h2 { color: Black; font-weight: bold; }
+.nohover a:hover { text-decoration: none; }
+
+/* .footerMenu { float: right; margin: -34px 10px 0 0; color: White; } */
+.footerMenu { float: left; margin: 0 0 0 20px; color: White; }
+.inner-notes 
+{
+	margin: -10px -14px 20px 10px;
+	padding: 15px;
+	width: 187px;
+	float: right;
+	background-color: #D1D3D3;
+}
+
+.space {
+    height: 10px;
+}
+div.footer {
+	margin: 0 0;
+	padding: 0;
+	clear: both;
+	width: 100%;
+	background-color: #2F693C;
+	float: left;
+}
+div.contact 
+{
+	margin: 20px 0 0;
+	/* padding: 5px 5px; */
+	/* background-color: #BCE0B6; */
+}
+.inner-page div.contact 
+{
+	margin-top: 0;
+}
+.footer .contact 
+{
+	padding: 5px 20px;
+	background-color: #BCE0B6; 
+}
+div.wrap {
+	padding: 17px 14px;
+	background-color: #D7D7D7;
+}
+.inner-page div.wrap 
+{
+	padding: 0;
+	background-color: transparent;
+}
+
+div.mainbar div.wrap {
+	 /* background: transparent url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/Images/div_latest_news.gif) no-repeat 50% 100%; */
+}
+div.contentWrapper 
+{
+	margin: 0;
+	padding: 10px 0 40px;
+	width: 100%;
+	float: left;
+	background-color: #ebebeb;
+	border-top: 1px solid #98CA60;
+}
+#pageTitleLeft {
+    width: 100% !important;
+}
+#pageTitleRight {
+    display: none;
+}
+.page-title 
+{
+	/*
+        background: transparent url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/title-main.jpg) no-repeat 50% 0;
+	height: 264px;
+	
+	background: transparent url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/title-main_short.jpg) no-repeat 50% 0;
+	height: 36px;
+	*/
+    background: transparent url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/title-inner_green_short.jpg) no-repeat 0 0;
+	float: left;
+    padding: 0;
+    width: 100%;
+    clear: both;
+    height: 36px;
+	/*padding: 0 10px;
+	width: 98% !important;
+	clear: both;*/
+    
+}
+.inner-page .page-title 
+{
+    /*margin-left: 3px;
+	padding: 1px 10px;*/
+    padding: 0;
+	/*background: transparent url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/title-inner_green_short.jpg) no-repeat 0 0;*/
+	height: 36px;
+    
+}
+
+.inner-page .page-title h1
+{
+    color: White;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 0 10px;
+    display: none;
+}
+.inner-page .page-title .rtsOut
+{
+    padding: 0;
+    margin: 0 0 0 -10px;
+}
+
+#supportUsContent 
+{
+    width: 282px;
+    margin: 0 0 0 4px;
+    border: 1px solid Black;
+    padding: 5px 5px 5px 5px;
+    background-color: #FAFBCE;
+}
+
+/* Headings */
+.page-title h1 
+{
+	margin: 0;
+	padding: 35px 0 0 68px;
+	color: #fff;
+	font-size: 34px;
+	font-weight: normal;
+}
+.content h1
+{
+	margin: 10px 0 10px;
+	color: #928B0C;
+	font-size: 34px;
+	font-weight: normal;
+}
+.content h2, #Main .sf_newsList h2.sf_newsTitle
+{
+	margin: 0 0 10px;
+	color: #928B0C;
+	font-size: 18px;
+	font-weight: normal;
+}
+.content h3
+{
+	margin: 0 0 10px;
+	color: #464646;
+}
+.content h4 {
+    color: Black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.content .homeColTitle h3 {
+    padding: 10px 15px 5px 21px;
+	color: #fff;
+    /* background: #29643b url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/h3-sidebar.gif) no-repeat 100% 0; */
+    background: #29643b url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/LeftRoundCorner_Content.gif) no-repeat left top;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #6db9d1;
+}
+.content .inner-notes h3 
+{
+	font-size: 18px;
+	font-weight: normal;
+	color: #000;
+}
+.sidebar h3 
+{
+	font-size: 18px;
+	font-weight: normal;
+}
+.inner-page .sidebar h3 
+{
+	padding: 10px 15px 5px 21px;
+	color: #fff;
+	/* background: #29643b url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/h3-sidebar.gif) no-repeat 100% 0; */
+	background: #29643b url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/LeftRoundCorner.gif) no-repeat left top;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #6db9d1;
+}
+.footer .contact h3 
+{
+	font-size: 14px;
+	display: inline;
+}
+.content h4
+{
+	margin: 0 0 10px;
+	color: #464646;
+	font-weight: normal;
+}
+.content .inner-notes h4 
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.sidebar h4
+{
+	margin: 0 0 5px;
+}
+
+.content h5
+{
+    background: transparent url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/defaultHeaderBg.jpg) no-repeat left top;
+    height: 35px;
+    font-size: 14px;
+    line-height: 28px;
+    color: Black;
+    padding: 0 7px 1px 10px;
+    text-transform: uppercase;
+}
+.content h5 a { color: Black; }
+.content h6 { font-size: 11px; }
+
+.content .title9
+{
+    background: transparent url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/defaultHeaderBg_660px.jpg) no-repeat left top;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    color: Black;
+    padding: 0 7px 1px 10px;
+    text-transform: uppercase;
+}
+
+/* Paragraphs */
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+.content p 
+{
+	margin: 0 0 10px;
+	padding: 0;
+}
+.content p.more
+{
+	text-align: right;
+	font-size: 11px;
+}
+.footer p
+{
+	margin: 0;
+	padding: 17px 20px;
+	color: #fff;
+}
+.date, .content p.date
+{
+	color: #338cae;
+	font-size: 10px;
+	margin-bottom: 0;
+}
+.page-title p
+{
+	padding: 30px 0 0 68px;
+	color: #fff;
+	width: auto;
+	line-height: 1.8;
+}
+/* Lists */
+ul, ol {
+	margin: 0 0 10px 25px;
+	padding: 0;
+	list-style-position: outside;
+}
+li {
+	margin: 0;
+	padding: 0;
+	list-style-type: disc;
+}
+ol li {
+	list-style-type: decimal;
+}
+.content ul 
+{
+	margin-left: 0;
+}
+.content .maincontent {
+    width: 100%;
+}
+.content .maincontent ul li
+{
+	padding-left: 30px;
+	list-style-type: none;
+	/* background: transparent url(/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/bullet.gif) no-repeat 9px 5px; */
+	background: transparent url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/menuItemArrow.gif) no-repeat 9px 5px;
+}
+
+.content .maincontent .sfnewsDetails ul li 
+{
+    padding-left: 3px;
+    list-style-type: none;
+    background-image: none;
+    
+}
+
+.content ol 
+{
+	margin-left: 30px;
+}
+.content ul.key-items 
+{
+	color: #928B0C;
+	font-weight: bold;
+}
+.content ul.key-items li
+{
+	background-image: url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/bullet-yellow.gif);
+	background-position: 5px 2px;
+}
+.wrap .news-list 
+{
+	margin: 0;
+}
+.wrap .news-list li
+{
+	padding: 17px 0;
+	list-style-type: none;
+	background: transparent url(https://web.archive.org/web/20200520230549im_/https://www.g6pd.org/MobileCss/img/sidebar_news_li.gif) repeat-x 0 100%;
+}
+/* Semantic */
+strong {
+	font-weight: bold;
+	font-style: normal;
+}
+em {
+	font-weight: normal;
+	font-style: italic;
+}
+address 
+{
+	padding-top: 5px;
+	font-style: normal;
+	line-height: 1.5;	
+}
+.footer .contact address 
+{
+	display: inline;
+	font-family: Calibri, Consolas, Arial, Helvetica, Sans-Serif;
+	color: #061524;
+}
+/* Links */
+a:link, a:visited, a:hover, a:active {
+	/* color: #928b0c; */
+	/* color: #efe313; */
+	/* color: #797415; */
+	color: #0A6764;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.logo a:link, .logo a:visited, .logo a:hover, .logo a:active {
+	color: #fff;
+	text-decoration: none;
+}
+.sidebar h4 a:link, .sidebar h4 a:visited, .sidebar h4 a:hover, .sidebar h4 a:active 
+{
+	color: #464646;
+}
+.footerMenu a:link, .footerMenu a:visited, .footerMenu a:hover, .footerMenu a:active { color: #efe313; }
+.inner-page .page-title a:link, .inner-page .page-title a:visited, .inner-page .page-title a:hover, .inner-page .page-title a:active { color: #efe313; }
+
+/* Community Logo */
+.poweredBySitefinityLogo 
+{
+	padding: 20px 0;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+/* Blogs */
+.content ul.sf_postListing li 
+{
+	background-image: none;
+}
+
+/* Buttons */
+.button_100_30 { width: 100px; height: 30px; }
+
+/* Pledge Chart */
+#wrap 
+{
+    background-image: none; 
+    width: 99%; 
+    height: auto;
+    border: 1px solid gray;
+    margin-left: -13px;
+    padding: 0 0 7px 0;
+}
+#pTitle 
+{
+    width: 98%; 
+    font-family: Calibri, 'DroidSansRegular', Tahoma, Cambria, Arial, Verdana, Sans-Serif; 
+    margin: 0 0 0 20px; 
+    padding: 5px 0 0 0;
+}
+#pMeter 
+{
+    width: 90%; 
+    background-color: #D0C383; 
+    height: 5px; 
+    font-family: Calibri, 'DroidSansRegular', Tahoma, Cambria, Arial, Verdana, Sans-Serif; 
+    margin: 20px 0 0 20px;
+}
+#pSubtitle 
+{
+    /* display: none; */
+}
+#pContent 
+{
+    display:none;
+}
+#pButton 
+{
+    margin:10px 0 0 20px;
+}
+
+
+
+/*
+     FILE ARCHIVED ON 23:05:49 May 20, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:49:47 Mar 09, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.784
+  load_resource: 119.067 (2)
+  PetaboxLoader3.resolve: 77.413 (3)
+  PetaboxLoader3.datanode: 92.696 (5)
+  captures_list: 0.53
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.01
+  esindex: 0.009
+  cdx.remote: 6.851
+  LoadShardBlock: 55.806 (3)
+*/

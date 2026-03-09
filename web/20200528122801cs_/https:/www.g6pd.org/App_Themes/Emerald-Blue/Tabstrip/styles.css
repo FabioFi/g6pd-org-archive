@@ -1,0 +1,109 @@
+#TopNavigation .RadTabStrip .rtsLevel 
+{
+	clear: none;
+	width: auto;
+	height: 45px;
+	padding: 41px 0 0 0px;
+	overflow: hidden;
+    float: right;
+}
+
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	float: right;
+	font-weight: bold;
+}
+
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+}
+
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a:link, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a:visited, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a:hover, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a:active 
+{
+	color: #ebebeb;
+	display: block;
+	float: left;
+	padding-left: 1px;
+	height: 45px;
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a:hover
+{
+	background: transparent url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Tabstrip/rtsLink-Left.gif) no-repeat 0 0;
+	text-decoration: none;
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul .rtsOut
+{
+	padding: 1px 1px 0 0;
+	float: left; 
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a:hover .rtsOut
+{
+	background: #31716b url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Tabstrip/rtsLink-Right.gif) no-repeat 100% 0;
+
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a .rtsIn {
+	padding: 8px 10px 19px 10px;
+	height: 19px;
+	float: left; 
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a:focus {
+	outline: 0;
+}
+/* selected */
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:link, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:visited, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:hover, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:active
+{
+	background: transparent url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Tabstrip/rtsLink-Left-Selected.gif) no-repeat 0 0;
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:link .rtsOut, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:visited .rtsOut, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:hover .rtsOut, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:active .rtsOut
+{
+	background: transparent url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Tabstrip/rtsLink-Right-Selected.gif) no-repeat 100% 0;
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:link .rtsIn, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:visited .rtsIn, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:hover .rtsIn, 
+.RadTabStrip_SitefinityCompany .rtsLevel1 ul a.rtsSelected:active .rtsIn
+{
+	background: #86d264 url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Tabstrip/rtsSelected.gif) repeat-x 0 0;
+}
+.RadTabStrip_SitefinityCompany .rtsLevel1 .rtsTxt
+{
+	cursor: pointer;
+	padding: 0 !important;
+}
+
+/*
+     FILE ARCHIVED ON 23:05:47 May 20, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:49:39 Mar 09, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 2.976
+  load_resource: 216.621 (2)
+  PetaboxLoader3.resolve: 235.357 (5)
+  PetaboxLoader3.datanode: 146.662 (5)
+  captures_list: 0.53
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 11.071
+  LoadShardBlock: 188.676 (3)
+*/

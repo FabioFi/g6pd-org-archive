@@ -1,0 +1,175 @@
+.RadPanelBar_SitefinityCompany {
+	width: 100% !important;
+	float: left;
+	/* position: relative; */
+}
+.RadPanelBar_SitefinityCompany ul {
+	margin: 0;
+	padding: 0;
+	background-color: #3f7e46;
+	width: 100%;
+	float: left;
+	/* position: relative; */
+}
+.RadPanelBar_SitefinityCompany ul ul.rpGroup {
+	padding-bottom: 13px;
+	background-color: #327042;
+}
+.sidebar .RadPanelBar .rpSlide {
+	overflow: visible;
+	width: 100%;
+	float: left;
+}
+.RadPanelBar_SitefinityCompany ul li.rpItem {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+	float: left;
+	/* position: relative; */
+}
+
+.RadPanelBar_SitefinityCompany ul li a:link, 
+.RadPanelBar_SitefinityCompany ul li a:visited, 
+.RadPanelBar_SitefinityCompany ul li a:hover, 
+.RadPanelBar_SitefinityCompany ul li a:active 
+{
+	color: #eee;
+	display: block;
+	/* width: auto !important;
+	float: left; */
+	border-top: 1px solid #347643;
+	border-bottom: 1px solid #4f962c;
+}
+.RadPanelBar_SitefinityCompany ul li a:hover
+{
+	background: transparent url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Panelbar/rpHover.gif) no-repeat 0 50%;
+}
+.RadPanelBar_SitefinityCompany ul ul li a:hover
+{
+	background-image: none;
+	font-weight: bold;
+}
+.RadPanelBar_SitefinityCompany ul li a:link .rpText, 
+.RadPanelBar_SitefinityCompany ul li a:visited .rpText, 
+.RadPanelBar_SitefinityCompany ul li a:hover .rpText, 
+.RadPanelBar_SitefinityCompany ul li a:active .rpText
+{
+	display: block;
+	padding: 12px 13px 12px 21px;
+}
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:link, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:visited, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:hover, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:active,
+.RadPanelBar_SitefinityCompany ul li a.rpExpanded:link, 
+.RadPanelBar_SitefinityCompany ul li a.rpExpanded:visited, 
+.RadPanelBar_SitefinityCompany ul li a.rpExpanded:hover, 
+.RadPanelBar_SitefinityCompany ul li a.rpExpanded:active 
+{
+	background: #78c657 url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Panelbar/rpSelected.gif) repeat-x 0 0;
+	border-top: 0;
+	padding-top: 1px;
+}
+.RadPanelBar_SitefinityCompany ul li.rpLast a:link, 
+.RadPanelBar_SitefinityCompany ul li.rpLast a:visited, 
+.RadPanelBar_SitefinityCompany ul li.rpLast a:hover, 
+.RadPanelBar_SitefinityCompany ul li.rpLast a:active
+{
+	border-bottom: 0;
+}
+.RadPanelBar_SitefinityCompany ul li.rpLast a:link .rpText, 
+.RadPanelBar_SitefinityCompany ul li.rpLast a:visited .rpText, 
+.RadPanelBar_SitefinityCompany ul li.rpLast a:hover .rpText, 
+.RadPanelBar_SitefinityCompany ul li.rpLast a:active .rpText
+{
+	background: transparent url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Panelbar/rpLast.gif) no-repeat 0 100%;
+}
+
+.RadPanelBar_SitefinityCompany ul li a:link .rpText, 
+.RadPanelBar_SitefinityCompany ul li a:visited .rpText, 
+.RadPanelBar_SitefinityCompany ul li a:hover .rpText, 
+.RadPanelBar_SitefinityCompany ul li a:active .rpText
+{
+	display: block;
+	padding: 12px 13px 12px 21px;
+}
+/*
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:link, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:visited, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:hover, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:active
+{
+	background: transparent url(/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Panelbar/rpSelected-rpText.gif) no-repeat 0 0;
+}
+*/
+.RadPanelBar_SitefinityCompany ul li a:hover
+{
+	background: transparent url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Panelbar/rpHover.gif) no-repeat 0 50%;
+}
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:link, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:visited, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:hover, 
+.RadPanelBar_SitefinityCompany ul li a.rpSelected:active {
+	background: #78c657 url(https://web.archive.org/web/20200520230547im_/https://www.g6pd.org/App_Themes/Emerald-Blue/Panelbar/rpSelected.gif) repeat-x 0 0;
+}
+
+.RadPanelBar_SitefinityCompany ul ul li a:link, 
+.RadPanelBar_SitefinityCompany ul ul li a:visited, 
+.RadPanelBar_SitefinityCompany ul ul li a:hover, 
+.RadPanelBar_SitefinityCompany ul ul li a:active {
+	border-bottom: 0;
+	border-top: 0;
+	background-color: #327042;
+	color: #d9dfe1;
+}
+.RadPanelBar_SitefinityCompany ul ul li a:link .rpText, 
+.RadPanelBar_SitefinityCompany ul ul li a:visited .rpText, 
+.RadPanelBar_SitefinityCompany ul ul li a:hover .rpText, 
+.RadPanelBar_SitefinityCompany ul ul li a:active .rpText 
+{
+	padding: 13px 13px 0 37px;
+}
+.RadPanelBar_SitefinityCompany ul ul li.rpLast a:link .rpText, 
+.RadPanelBar_SitefinityCompany ul ul li.rpLast a:visited .rpText, 
+.RadPanelBar_SitefinityCompany ul ul li.rpLast a:hover .rpText, 
+.RadPanelBar_SitefinityCompany ul ul li.rpLast a:active .rpText
+{
+	background-image: none;
+}
+.RadPanelBar_SitefinityCompany ul ul li a.rpSelected:link, 
+.RadPanelBar_SitefinityCompany ul ul li a.rpSelected:visited, 
+.RadPanelBar_SitefinityCompany ul ul li a.rpSelected:hover, 
+.RadPanelBar_SitefinityCompany ul ul li a.rpSelected:active 
+{
+	background-image: none;
+	background-color: transparent;
+	font-weight: bold;
+	padding-top: 0;
+}
+.RadPanelBar_SitefinityCompany a:focus,
+.RadPanelBar_SitefinityCompany a:focus .rpOut,
+.RadPanelBar_SitefinityCompany a:focus .rpText 
+{
+	outline: 0;
+}
+/*
+     FILE ARCHIVED ON 23:05:47 May 20, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:49:36 Mar 09, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.645
+  load_resource: 33.904 (2)
+  PetaboxLoader3.datanode: 198.901 (5)
+  captures_list: 0.639
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 21.318
+  LoadShardBlock: 174.556 (3)
+*/

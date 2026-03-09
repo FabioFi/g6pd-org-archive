@@ -1,0 +1,115 @@
+body, body.inner-page
+{
+	background: white;
+	font-size: 12pt;
+	font-family: 'Times New Roman',Times,serif;
+	color: #000;
+}
+.top-nav, .inner-notes, .footer, #SideBar, #fontSze, .page-title, #loginViewDiv, #langTable
+{
+	display: none;
+}
+#printLogo { display: block; }
+
+div#wrapper
+{
+	width: auto;
+	margin: 0 5%;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	color: black;
+	background: transparent none;
+}
+
+div.contentWrapper, div#Main, /* div.page-title, */ .logo, .inner-page /* .page-title */
+{
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: none !important;
+	color: black !important;
+	background: transparent none;
+}
+p.logo
+{
+	/* background: transparent url(/web/20200520230549im_/https://www.g6pd.org/Print/aif_logo4_eng_print.jpg) no-repeat 0 0; */
+}
+div.page-title, .inner-page .page-title
+{
+	height: auto;
+}
+div.page-title h1, div.page-title p
+{
+	padding: 0;
+	color: #000;
+}
+.content h1, .content h2, .content h3, .content ul.key-items 
+{
+	color: #000;
+}
+.content ul li, .content ul.key-items li
+{
+	margin: 0 0 0 25px;
+	padding: 0;
+	background: none;
+	list-style-type: disc;
+}
+.page-title a
+{
+	display: none;
+}
+/*
+div#Main
+{
+	margin-left: 10%;
+	padding-top: 1em;
+	border-top: 1px solid #930;
+}
+*/
+.logo a:link, .logo a:visited, .logo a:hover, .logo a:active
+{
+	color: #000;
+}
+.content a:link, .content a:visited 
+{
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.content a:after, .content a:link:after  
+{ 
+	color: #000;
+	background-color: transparent; 
+	/* content: " * Link " attr(href) "* ";  */
+}
+.content a:visited:after 
+{
+	color: #000; 
+	background-color:transparent;
+	/* content: " * Link " attr(href) "* "; */
+}
+
+/*
+     FILE ARCHIVED ON 23:05:49 May 20, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:49:42 Mar 09, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 13.779
+  load_resource: 86.17 (2)
+  PetaboxLoader3.datanode: 182.121 (5)
+  captures_list: 0.52
+  exclusion.robots: 0.018
+  exclusion.robots.policy: 0.01
+  esindex: 0.009
+  cdx.remote: 16.581
+  LoadShardBlock: 284.077 (3)
+  PetaboxLoader3.resolve: 168.958 (2)
+*/
