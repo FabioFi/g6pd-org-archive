@@ -84,7 +84,7 @@
     </script>
 	
 <body class="inner-page">
-    <form method="get" action="SafeUnsafe.aspx.html" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+    <form method="get" action="SafeUnsafe.aspx.html" onsubmit="return false;" id="form1">
 <div class="aspNetHidden">
 <input type="hidden" name="radScriptManager1_TSM" id="radScriptManager1_TSM" value=""/>
 <input type="hidden" name="ctl06_TSSM" id="ctl06_TSSM" value=""/>
@@ -352,7 +352,7 @@ if (typeof(Telerik) != 'undefined')
                                         <table>
                                             <tr>
                                                 <td>
-                                                    <span id="ctl00_Content_C002_qrydrug_wrapper" class="riSingle RadInput RadInput_MetroTouch" style="width:160px;"><input id="ctl00_Content_C002_qrydrug" name="ctl00$Content$C002$qrydrug" size="20" class="riTextBox riEnabled" type="text"/><input id="ctl00_Content_C002_qrydrug_ClientState" name="ctl00_Content_C002_qrydrug_ClientState" type="hidden"/></span>
+                                                    <span id="ctl00_Content_C002_qrydrug_wrapper" class="riSingle RadInput RadInput_MetroTouch" style="width:160px;"><input id="ctl00_Content_C002_qrydrug" name="ctl00$Content$C002$qrydrug" size="20" class="riTextBox riEnabled" type="text" oninput="drugFilter(this.value)" placeholder="Type drug or trade name…"/><input id="ctl00_Content_C002_qrydrug_ClientState" name="ctl00_Content_C002_qrydrug_ClientState" type="hidden"/></span>
                                                 </td>
                                                 <td>
                                                     <a id="ctl00_Content_C002_btnSearch" class="RadButton RadButton_MetroTouch rbSkinnedButton" href="javascript:void(0)"><input class="rbDecorated" type="submit" name="ctl00$Content$C002$btnSearch_input" id="ctl00_Content_C002_btnSearch_input" value="  SEARCH  "/><input id="ctl00_Content_C002_btnSearch_ClientState" name="ctl00_Content_C002_btnSearch_ClientState" type="hidden"/></a>
@@ -900,6 +900,23 @@ Sys.Application.add_init(function() {
         printIcon.src = '/App_Themes/Emerald-Blue/img/printer_icon_1_en.gif';
         emailIcon.src = '/App_Themes/Emerald-Blue/img/EmailToFriend_en.gif';
     }
+</script>
+<script>
+function drugFilter(q) {
+    var rows = document.querySelectorAll('tr.rgRow, tr.rgAltRow');
+    var lq = q.toLowerCase();
+    rows.forEach(function(row) {
+        row.style.display = row.textContent.toLowerCase().indexOf(lq) !== -1 ? '' : 'none';
+    });
+}
+// Also wire up the SEARCH button click
+document.addEventListener('DOMContentLoaded', function() {
+    var btn = document.getElementById('ctl00_Content_C002_btnSearch_input');
+    var inp = document.getElementById('ctl00_Content_C002_qrydrug');
+    if (btn && inp) {
+        btn.addEventListener('click', function() { drugFilter(inp.value); });
+    }
+});
 </script>
 </body>
 </html>
